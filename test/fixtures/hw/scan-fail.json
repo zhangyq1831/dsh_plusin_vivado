@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "hwServer": { "url": "localhost:3121", "connected": true },
+  "targets": [],
+  "devices": [],
+  "ilas": [],
+  "vios": [],
+  "errors": [{ "code": "HW_CONNECT_FAILED", "message": "无法连接 hw_server / 目标（fixture）" }]
+}

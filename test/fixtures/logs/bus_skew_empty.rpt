@@ -1,0 +1,12 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Oct 19 17:05:00 2026
+| Command      : report_bus_skew -warn_on_violation -file impl_bus_skew.rpt
+| Design       : synthetic_top
+| Device       : 7a200t-fbg676
+------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints

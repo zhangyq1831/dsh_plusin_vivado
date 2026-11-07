@@ -1,0 +1,16 @@
+INFO: [USF-XSim-62] 'compile' step: xvlog -sv -work work fake_dut.v fake_tb.sv
+INFO: [USF-XSim-62] 'elaborate' step: xelab -debug typical -s snap_fake_tb work.fake_tb
+INFO: [USF-XSim-62] 'simulate' step: xsim snap_fake_tb -runall
+[TEST] Basic valid frame without parity
+Error: no-parity basic: timeout waiting for o_dv assertion
+[TEST] Back-to-back frames without parity
+Error: no-parity back-to-back first: timeout waiting for o_dv assertion
+Error: no-parity back-to-back second: timeout waiting for o_dv assertion
+[TEST] Stop-bit violation should flag frame error
+Error: no-parity stop-bit violation: timeout waiting for o_dv assertion
+[TEST] Even parity enabled - valid frame
+Error: even-parity valid: timeout waiting for o_dv assertion
+[TEST] Even parity enabled - parity error should flag
+Error: even-parity mismatch: timeout waiting for o_dv assertion
+All fake tests completed
+INFO: [USR-XSim-96] XSim completed.

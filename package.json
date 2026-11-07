@@ -1,0 +1,72 @@
+{
+  "name": "dsh-vivado-plugin",
+  "version": "0.1.0",
+  "description": "Native DeepSeek Harness (DSH) plugin for Xilinx Vivado: simulation, synthesis, implementation/bitstream, timing and resource reports, and hardware debugging (JTAG scan, bitstream programming, debug-core inspection).",
+  "type": "module",
+  "main": "./index.mjs",
+  "bin": {
+    "vivado-mcp": "./bin/vivado-cli.mjs",
+    "vivado-cli": "./bin/vivado-cli.mjs"
+  },
+  "exports": {
+    ".": "./index.mjs",
+    "./server": "./src/server.mjs",
+    "./cli": "./bin/vivado-cli.mjs",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "src",
+    "bin",
+    "tcl",
+    "test",
+    "locale",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh-CN.md",
+    "docs",
+    "skill",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/run-tests.mjs",
+    "test:plugin": "node test/plugin-tests.mjs",
+    "smoke": "node bin/vivado-cli.mjs doctor",
+    "mcp": "node src/server.mjs"
+  },
+  "keywords": [
+    "vivado",
+    "fpga",
+    "xilinx",
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "mcp",
+    "eda",
+    "bitstream",
+    "ila"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangyq1831/dsh_plusin_vivado.git"
+  },
+  "homepage": "https://github.com/zhangyq1831/dsh_plusin_vivado#readme",
+  "bugs": {
+    "url": "https://github.com/zhangyq1831/dsh_plusin_vivado/issues"
+  },
+  "author": "dsh-vivado-plugin contributors",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

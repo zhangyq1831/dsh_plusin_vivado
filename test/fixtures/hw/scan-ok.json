@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "hwServer": { "url": "localhost:3121", "connected": true },
+  "targets": [{ "name": "localhost:3121/xilinx_tcf/Digilent/210292AB1C3A" }],
+  "devices": [],
+  "ilas": [],
+  "vios": [],
+  "errors": []
+}

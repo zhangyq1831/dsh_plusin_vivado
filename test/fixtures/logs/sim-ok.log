@@ -1,0 +1,16 @@
+INFO: [USF-XSim-62] 'compile' step: xvlog -sv -work work fake_dut.v fake_tb.sv
+INFO: [USF-XSim-62] 'elaborate' step: xelab -debug typical -s snap_fake_tb work.fake_tb
+INFO: [USF-XSim-62] 'simulate' step: xsim snap_fake_tb -runall
+[TEST] Basic valid frame without parity
+[PASS] no-parity basic
+[TEST] Back-to-back frames without parity
+[PASS] no-parity back-to-back first
+[PASS] no-parity back-to-back second
+[TEST] Stop-bit violation should flag frame error
+[PASS] no-parity stop-bit violation
+[TEST] Even parity enabled - valid frame
+[PASS] even-parity valid
+[TEST] Even parity enabled - parity error should flag
+[PASS] even-parity mismatch
+All fake tests completed
+INFO: [USR-XSim-96] XSim completed.

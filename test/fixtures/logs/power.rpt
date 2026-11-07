@@ -1,0 +1,20 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v2018.3 (64-bit) Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Oct 22 11:45:00 2025
+| Design       : fake_dut
+| Device       : 7a200t-fbg676
+------------------------------------------------------------------------------------------------
+
+
+1. Summary
+----------
+
++-------------------------+--------------+
+| Total On-Chip Power (W) | 0.139        |
+| Dynamic (W)             | 0.000        |
+| Device Static (W)       | 0.138        |
+| Junction Temperature (C)| 25.3         |
++-------------------------+--------------+
+
+Confidence level: Medium

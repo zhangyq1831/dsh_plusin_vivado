@@ -1,0 +1,35 @@
+# DSH / Vivado runtime artifacts
+.vivado-mcp/
+**/.vivado-mcp/
+test/.tmp/
+test/tmp-*
+test/**/sim_build/
+test/**/xsim.dir/
+test/**/*.wdb
+test/**/*.pb
+test/**/*.jou
+test/**/webtalk*
+
+# Vivado outputs that may appear while running optional integration checks
+*.jou
+*.str
+*.backup.*
+vivado_pid*.zip
+*.rpt
+*.bit
+*.dcp
+*.log
+!test/fixtures/**/*.log
+!test/fixtures/**/*.rpt
+
+# Node.js
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+coverage/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,19 @@
+INFO: [Common 17-1131] Fake Vivado 2018.3 starting (fixture)
+INFO: [Vivado 12-1411] Starting synth_design
+PROGRESS: 10%
+VMCP_SYNTH_DONE progress=100% status=Complete!
+INFO: [Vivado 12-1430] Starting impl
+PROGRESS: 40%
+INFO: [Place 30-...] place_design completed successfully
+PROGRESS: 70%
+INFO: [Route 35-...] route_design completed successfully
+VMCP_IMPL_DONE progress=100% status=Complete!
+PROGRESS: 90%
+INFO: [Vivado 12-1431] write_bitstream
+ERROR: [DRC NSTD-1] Unspecified I/O Standard: 16 out of 16 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user-assigned I/O standard.
+Resolution: The I/O standard must be specified with the IOSTANDARD property on the port, or a correct XDC constraint must be added.
+ERROR: [DRC UCIO-1] Unconstrained Logical Port: 16 out of 16 logical ports have no user assigned specific location constraint (LOC).
+Resolution: Assign an explicit LOC constraint to each port, or use a correct XDC constraint file for the current top.
+VMCP_ERROR write_bitstream 被 DRC 拒绝（默认 XDC 与当前 top 不匹配）
+VMCP_FINISH fail
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 22 11:45:00 2025...

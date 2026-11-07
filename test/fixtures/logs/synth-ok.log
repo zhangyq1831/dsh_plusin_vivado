@@ -1,0 +1,12 @@
+INFO: [Common 17-1131] Fake Vivado 2018.3 starting (fixture)
+INFO: [Vivado 12-1411] Starting synth_design
+PROGRESS: 5%
+INFO: [Synth 8-7071] synthesizing module 'fake_dut'
+PROGRESS: 35%
+INFO: [Synth 8-256] done in 1.2 s
+PROGRESS: 80%
+Synthesis finished with 0 errors, 3 warnings and 2 critical warnings.
+synth_design completed successfully
+VMCP_SYNTH_DONE progress=100% status=Complete!
+VMCP_FINISH ok
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 22 11:40:58 2025...

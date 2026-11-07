@@ -1,0 +1,25 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Oct 22 11:45:00 2025
+| Design       : synthetic_legacy_top
+| Device       : 7a200t-fbg676
+------------------------------------------------------------------------------------------------
+
+Design Timing Summary
+---------------------
+WNS(ns)    TNS(ns)    TNS Failing Endpoints  TNS Total Endpoints  WPWS(ns)   TPWS(ns)   TPWS Failing Endpoints  TPWS Total Endpoints
+-------    -------    ---------------------  -------------------  --------   --------   ----------------------  --------------------
+    2.907      0.000                      0                30196      3.000      0.000                       0                 17914
+
+
+All user specified timing constraints are met.
+
+
+Intra Clock Table
+-----------------
+Clock                                                                                             WNS(ns)    TNS(ns)    TNS Failing Endpoints  TNS Total Endpoints  WPWS(ns)   TPWS(ns)   TPWS Failing Endpoints  TPWS Total Endpoints
+-----                                                                                             -------    -------    ---------------------  -------------------  --------   --------   ----------------------  --------------------
+clk                                                                                                                                                                     3.000      0.000                       0                     2
+  clk_out1_mmcm                                                                                      10.709      0.000                      0                23460      8.870      0.000                       0                 14284
+  clkfbout_mmcm                                                                                                                                                         8.408      0.000                       0                     3

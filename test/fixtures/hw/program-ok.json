@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "programmed": true,
+  "device": { "name": "xc7a200t_0", "part": "xc7a200t" },
+  "bitFile": "",
+  "verify": { "requested": true, "passed": true, "detail": "refresh_hw_device OK" },
+  "errors": []
+}

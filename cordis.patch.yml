@@ -1,0 +1,23 @@
+# DeepSeek Harness (DSH) bundle patch for the native Vivado plugin.
+#
+# The row below inserts the plugin into the current DSH profile. It contains no
+# project-specific paths or credentials: the plugin reads the Vivado project and
+# executable from the environment at activation time, and every tool also
+# accepts an explicit `project_dir` / `projectDir` value.
+#
+# Optional environment variables (set before launching DSH, or edit `config`
+# after installation if your profile manager supports per-row configuration):
+#   VIVADO_PROJECT_ROOT  absolute path of the Vivado project directory (or .xpr)
+#   VIVADO_BIN           absolute path of vivado.bat / vivado
+#   VIVADO_MCP_NODE      absolute path of a real Node.js executable used to
+#                        launch background jobs (defaults to PATH discovery)
+#
+# Example with explicit values (uncomment and edit the config block):
+#   config:
+#     projectDir: /absolute/path/to/vivado/project
+#     vivadoBin: /absolute/path/to/vivado.bin
+#     nodeBin: /absolute/path/to/node
+- insert:
+    - id: vivado-plugin
+      name: dsh-vivado-plugin
+      config: {}

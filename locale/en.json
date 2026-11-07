@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Vivado Native Toolchain",
+    "description": "Native DSH tools for running Vivado simulation, synthesis and bitstream builds on the local FPGA project, with async jobs and structured reports."
+  }
+}

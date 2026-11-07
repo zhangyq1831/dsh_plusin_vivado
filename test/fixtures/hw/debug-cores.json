@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "dcp": "",
+  "cores": [
+    {
+      "name": "u_ila_0",
+      "type": "ila",
+      "cellName": "u_ila_0",
+      "ports": [
+        { "name": "clk", "direction": "input", "width": 1, "net": "clk_25m" },
+        { "name": "probe0", "direction": "input", "width": 8, "net": "uart_rx_line" }
+      ]
+    },
+    {
+      "name": "u_vio_0",
+      "type": "vio",
+      "cellName": "u_vio_0",
+      "ports": [{ "name": "clk", "direction": "input", "width": 1, "net": "clk_25m" }]
+    }
+  ],
+  "errors": []
+}

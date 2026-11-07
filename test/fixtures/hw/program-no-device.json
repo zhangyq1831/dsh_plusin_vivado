@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "programmed": false,
+  "device": null,
+  "bitFile": "",
+  "verify": { "requested": true, "passed": false, "detail": "no device" },
+  "errors": [{ "code": "NO_HW_DEVICE", "message": "No programmable device found on connected targets（本机无板卡，fixture）" }]
+}

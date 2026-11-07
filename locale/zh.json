@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Vivado 工具链原生插件",
+    "description": "以原生 DSH 工具运行本机 Vivado 工程的仿真、综合与比特流构建，提供异步 job 与结构化报告。"
+  }
+}
